@@ -69,7 +69,7 @@ const questions = [
 
 function generateReadme(answers) {
     return `
-  # ${answers.title}
+  # \x1b[36m${answers.title}\x1b[0m
   
   ## Description
   ${answers.description}
